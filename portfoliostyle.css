@@ -1,0 +1,59 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: bisque;
+    text-align: center;
+    margin: 0px;
+    background-image: url(./background.jpg);
+    background: cover;
+}
+
+.menu {
+    position: fixed;
+    background-color: blue;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.links {
+    display: inline;
+    padding: 30px;
+    padding-left: 30px;
+}
+
+a {
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a:hover {
+    text-shadow: 8px 8px 8px black;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.profile {
+    width: 400px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+#welcome {
+    background: linear-gradient(to right, aqua, rgb(0, 146, 146));
+}
+
+#name {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.line {
+    height: 6px;
+    width: 50%;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
